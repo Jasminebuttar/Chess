@@ -1,8 +1,13 @@
-package Pieces;
+package pieces;
 
-import Pieces.Allpieces;
-import app.Position;
+import chess.Position;
+import pieces.Allpieces;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Knight extends Allpieces {
 	
 	public Knight(char color){

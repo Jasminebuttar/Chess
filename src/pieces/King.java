@@ -1,7 +1,12 @@
-package Pieces;
+package pieces;
 
-import app.Position;
+import chess.Position;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class King extends Allpieces{
 	
 	public King(char color){

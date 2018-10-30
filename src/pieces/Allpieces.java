@@ -1,8 +1,14 @@
-package Pieces;
+package pieces;
 
 import java.util.ArrayList;
-import app.Position;
 
+import chess.Position;
+
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public abstract class Allpieces 
 {
     public char color;

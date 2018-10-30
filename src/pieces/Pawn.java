@@ -1,10 +1,12 @@
-package Pieces;
+package pieces;
 
-import Pieces.Allpieces;
-import app.Position;
-import Controller.Squares;
-//import Controller.Board;
-
+import chess.Position;
+import pieces.Allpieces;
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Pawn extends Allpieces {
 
 	

@@ -1,6 +1,11 @@
-package Pieces;
-import app.Position;
+package pieces;
+import chess.Position;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Rook extends Allpieces{
 	
 	public Rook(char color){

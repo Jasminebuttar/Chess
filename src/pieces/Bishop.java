@@ -1,7 +1,12 @@
-package Pieces;
-import Pieces.Allpieces;
-import app.Position;
+package pieces;
+import chess.Position;
+import pieces.Allpieces;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Bishop extends Allpieces{
 	
 	public Bishop(char color){

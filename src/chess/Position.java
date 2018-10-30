@@ -1,5 +1,10 @@
-package app;
+package chess;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Position {
 		
 	public int horz;
@@ -92,7 +97,6 @@ public class Position {
 		else
 		{
 		  int slope = this.getSlope(p);
-		  System.out.println("SLOPE: " +slope);
 			if (slope == 1 || slope == -1)
 				return true;
 			else

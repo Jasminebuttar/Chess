@@ -1,7 +1,12 @@
-package Controller;
-import Pieces.*;
-import app.Position;
+package controller;
+import chess.Position;
+import pieces.*;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Board {
 	public int count = 0;
 	public boolean blackTurn = true;

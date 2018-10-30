@@ -1,8 +1,14 @@
-package app;
-import Controller.*;
+package chess;
 
 import java.util.*;
 
+import controller.*;
+
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Chess {
 	
 	public static void main(String[] args) throws Exception{

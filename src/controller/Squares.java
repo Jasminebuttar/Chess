@@ -1,8 +1,13 @@
-package Controller;
+package controller;
 
-import Pieces.Allpieces;
-import app.Position;
+import chess.Position;
+import pieces.Allpieces;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Squares {
 	
 	public Position current;

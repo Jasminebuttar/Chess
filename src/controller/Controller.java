@@ -1,8 +1,13 @@
-package Controller;
+package controller;
 
-import app.Position;
-import Controller.Board;
+import chess.Position;
+import controller.Board;
 
+/**
+ * @author Jasmine Buttar
+ * @author Zalak Shingala
+ *
+ */
 public class Controller {
 	
 	private Board board;
