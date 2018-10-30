@@ -3,7 +3,7 @@ import Controller.*;
 
 import java.util.*;
 
-public class Main {
+public class Chess {
 	
 	public static void main(String[] args) throws Exception{
 		Controller c = new Controller();
