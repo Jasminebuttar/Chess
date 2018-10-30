@@ -24,7 +24,7 @@ public class Knight extends Allpieces {
 		boolean check = super.validMove(start, end, s, path);
 
 		if (check) {
-			if (((start.rankC + 2 == end.rankC || start.rankC - 2 == end.rankC)&&
+			if (((start.vert + 2 == end.vert || start.vert - 2 == end.vert)&&
 			   (start.horz + 1 == end.horz || start.horz - 1 == end.horz))||
 			   ((start.horz + 2 == end.horz || start.horz - 2 == end.horz)&&
 			   (start.vert + 1 == end.vert || start.vert - 1 == end.vert))){

@@ -28,7 +28,7 @@ public class Queen extends Allpieces{
 				return true;
 			}else if(start.vert == end.vert){
 				return true;
-			}else if(start.isDiagonalTo(end)){
+			}else if(start.isDiagonal(end)){
 				return true;
 			}
 		}

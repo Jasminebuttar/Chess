@@ -3,7 +3,7 @@ package Pieces;
 import Pieces.Allpieces;
 import app.Position;
 import Controller.Squares;
-import Controller.Board;
+//import Controller.Board;
 
 public class Pawn extends Allpieces {
 
