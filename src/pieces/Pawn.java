@@ -32,7 +32,7 @@ public class Pawn extends Allpieces {
 		if(check){
 			if(s == 'c' && (start.vert - 1 == end.vert || start.vert + 1 == end.vert)){
 					if(this.color == 'w'){
-						if (start.horz - 1 == end.horz){
+						if ((start.horz - 1 == end.horz)||(start.horz + 1 == end.horz)){
 							return true;
 						}
 						else{
@@ -40,7 +40,7 @@ public class Pawn extends Allpieces {
 						}
 					}	
 					if(this.color == 'b'){
-							if (start.horz + 1 == end.horz){
+							if ((start.horz - 1 == end.horz)||(start.horz + 1 == end.horz)){
 							return true;
 							}
 							else{
