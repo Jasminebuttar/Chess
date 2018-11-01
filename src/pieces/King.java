@@ -31,6 +31,10 @@ public class King extends Allpieces{
 			if(start.isAdjacent(end)){
 				return true;
 			}
+			if(start.isDiagonal(end)){
+				return true;
+			}
+			
 		}
 		return false;
 	}

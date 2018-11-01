@@ -9,21 +9,34 @@ import pieces.Allpieces;
  */
 public class Pawn extends Allpieces {
 
-	
+	/**
+	 * parameterized constructor of Queen that initializes the type to Pawn
+	 * @param color color of piece
+	 */
 	public Pawn(char color){
 		super(color);
 		this.type = "PAWN";
 	}
 	
-	
+	/**
+	 * getColor no-arg method gets the color of the piece
+	 * @return char of color either 'w' or 'b'
+	 */
 	public char getColor(){
 		return color;
 	}
 	
+	/**
+	 * toString method that overrides super class Allpieces' toString method
+	 */
 	public String toString(){
 		return super.toString() + "P";
 	}
 	
+	/**
+	 * boolean method validMove that returns true if Pawn's move 
+	 * is valid else it returns false
+	 */
 	public boolean validMove(Position start, Position end, char s, boolean path){
 		
 		boolean check = super.validMove(start, end, s, path);
