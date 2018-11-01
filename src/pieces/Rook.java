@@ -21,7 +21,9 @@ public class Rook extends Allpieces{
 	public String toString(){
 		return super.toString() + "R";
 	}
-	
+	/**
+	 * Ensures valid move for the rook piece
+	 */
 	public boolean validMove(Position start, Position end, char s, boolean path){
 		boolean check = super.validMove(start, end, s, path);
 		

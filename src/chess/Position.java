@@ -22,10 +22,10 @@ public class Position {
 		int vNum = getVert(v);
 			
 		if(hNum > 7 || hNum < 0)
-		 System.out.println("Invalid File");
+		 System.out.println("Invalid");
 			
 		if(vNum > 7 || v < 0)
-		 System.out.println("Invalid Rank");
+		 System.out.println("Invalid");
 			
 		this.horz = hNum;
 		this.vert = vNum;

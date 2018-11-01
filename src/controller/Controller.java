@@ -10,10 +10,10 @@ import controller.Board;
  */
 public class Controller {
 	
-	private Board board;
+	private controller.Board board;
 	
 	public boolean end;
-	
+
 	public Controller(){
 		this.board = new Board();
 	}

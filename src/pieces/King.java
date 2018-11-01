@@ -21,7 +21,9 @@ public class King extends Allpieces{
 	public String toString(){
 		return super.toString() + "K";
 	}
-	
+	/**
+	 * This method defines valid move for the king piece
+	 */
 	public boolean validMove(Position start, Position end, char s, boolean path){
 		boolean validityCheck = super.validMove(start, end, s, path);
 		

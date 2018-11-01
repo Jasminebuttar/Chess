@@ -48,7 +48,7 @@ public class Chess {
 			
 				
 			
-				c.move(horz1, vert1, horz2, vert2, null);
+			c.move(horz1, vert1, horz2, vert2, null);
 			
 			}
 			

@@ -21,7 +21,9 @@ public class Bishop extends Allpieces{
     public String toString(){
 		return super.toString() + "B";
 	}
-		
+	/**
+	 * This method defines valid move for the bishop	
+	 */
 	public boolean validMove(Position start, Position end, char s, boolean path){
 		boolean check = super.validMove(start, end, s, path);
 			

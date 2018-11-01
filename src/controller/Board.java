@@ -22,7 +22,9 @@ public class Board {
 		}
         this.loadBoard();
     }
-    
+    /**
+     * This method loads the board with all the pieces in proper place
+     */
     public void loadBoard(){
 
 		char color = 0;
@@ -66,7 +68,7 @@ public class Board {
 			}
 		}
     }
-
+    
 	public void move(Position cell1, Position cell2, String prom){
 		Squares start = this.getHorzVert(cell1);
 		Squares end = this.getHorzVert(cell2);
@@ -187,16 +189,16 @@ public class Board {
 		}
 		return false;
 	}
-    
-	private boolean checked(Allpieces piece, Position begin, Position end){
-		int currVert = end.vert;
-		int currHorz = end.horz;
-		Squares left = this.board[end.vert][end.horz-1];
-		Squares right = this.board[end.vert][end.horz+1];
-		Squares up = this.board[end.vert+1][end.horz];
-		Squares down = this.board[end.vert-1][end.horz];
-		Squares rightDiagonal = this.board[end.vert+1][end.horz+1];
-		Squares leftDiagonal = this.board[end.vert+1][end.horz-1];
+    /**
+     * 
+     * @param piece defines piece type
+     * @param start defines starting position of the piece
+     * @param end defines ending position of the piece
+     * @return
+     */
+	private boolean checked(Allpieces piece, Position start, Position end){
+		Squares rightDiagonal = this.board[end.vert+1][end.horz];
+		Squares leftDiagonal = this.board[end.vert+1][end.horz];
 		
 		if(piece.type.equals("PAWN")){
 			if(rightDiagonal.piece == null){
@@ -241,7 +243,10 @@ public class Board {
 	public boolean blackTurn(){
 		return !blackTurn;
 	}
-
+/**
+ * 
+ * @return position coordinates
+ */
 	private Squares getHorzVert(Position p){
 		return board[p.vert][p.horz];
 	}
